@@ -16,7 +16,7 @@ def RandPass(n):
     lower_case ="abcdefghijkmnopqrstuvwxyz"
     upper_case ="ABCDEFGHIJKLMNOPQRSTUVWXYZ"
     numbers ="01234567890"
-    symbols ="@#$%&!?*"
+    symbols ="=/\@#$%&!?*"
     use_for = lower_case + upper_case + numbers + symbols
     legth_for_pass = n
     password ="".join(random.sample(use_for, legth_for_pass))
